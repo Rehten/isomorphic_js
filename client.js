@@ -1,9 +1,3 @@
-/*
- * Learning Isomorphic Web Application Development
- * Copyright © 2015 Konstantin Tarkus, Packt Publishing
- * All rights reserved.
- */
-
 import 'babel-core/register';
 import React from 'react';
 import ReactDOM from 'react-dom';
