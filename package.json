@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "autoprefixer": "7.1.4",
-    "babel-cli": "6.26.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
     "babel-eslint": "8.0.0",
     "babel-loader": "7.1.2",
@@ -27,8 +27,8 @@
     "node-style-loader": "0.0.1-alpha",
     "postcss-loader": "2.0.6",
     "precss": "2.0.0",
-    "webpack-dev-middleware": "2.0.4",
-    "webpack": "3.6.0"
+    "webpack": "3.6.0",
+    "webpack-dev-middleware": "2.0.4"
   },
   "scripts": {
     "lint": "eslint components core data routes test tools",
