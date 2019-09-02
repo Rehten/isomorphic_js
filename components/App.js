@@ -4,7 +4,7 @@ import moment from "moment";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {time: null};
+    this.state = {time: new Date()};
   }
 
   componentDidMount() {

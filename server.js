@@ -22,8 +22,9 @@ server.get('*', (req, res) => {
   const html = ReactDOM.renderToStaticMarkup(<Html
     title="My App"
     description="Isomorphic web application sample"
-    body={body} />);
+    children={body} />);
   res.send('<!doctype html>\n' + html);
+  console.log(html);
 });
 
 server.listen(port, () => console.log(
